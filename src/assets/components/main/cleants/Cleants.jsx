@@ -7,14 +7,16 @@ function Cleants() {
 		<section className='cleants'>
 			<div className='container'>
 				<div className='cleants__head'>
-					<h3 className='cleants__heading'>What Clients Say</h3>
-					<p className='cleants__paragriph'>
+					<h3 className='cleants__heading' data-aos='fade-up-right'>
+						What Clients Say
+					</h3>
+					<p className='cleants__paragriph' data-aos='fade-up-right'>
 						Problems trying to resolve the conflict between the two major realms of Classical
 						physics: Newtonian mechanics.
 					</p>
 				</div>
 				<div className='cleants__body'>
-					<div className='cleants__cards'>
+					<div className='cleants__cards' data-aos='fade-up-left'>
 						<CleantImages />
 						<p>
 							Product helps you see how many more days you need to work to reach your financial
@@ -22,7 +24,7 @@ function Cleants() {
 						</p>
 						<Wahid />
 					</div>
-					<div className='cleants__cards'>
+					<div className='cleants__cards' data-aos='fade-up-left'>
 						<CleantImages />
 						<p>
 							Product helps you see how many more days you need to work to reach your financial
@@ -30,7 +32,7 @@ function Cleants() {
 						</p>
 						<Wahid2 />
 					</div>
-					<div className='cleants__cards'>
+					<div className='cleants__cards' data-aos='fade-up-left'>
 						<CleantImages />
 						<p>
 							Product helps you see how many more days you need to work to reach your financial

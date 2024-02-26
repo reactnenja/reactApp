@@ -4,12 +4,12 @@ function CardTable() {
 	return (
 		<section className='card__pirace'>
 			<div className='container'>
-				<div className='card__head-pr'>
+				<div className='card__head-pr' data-aos='flip-up'>
 					<h1>Price Table</h1>
 					<p>We offer competitive price</p>
 				</div>
 				<div className='card__pirace-body'>
-					<section className='table__card'>
+					<section className='table__card' data-aos='flip-down'>
 						<h2 className='name__cards'>Free</h2>
 						<span className='name__title'>Brief price description</span>
 						<div className='table__card-body'>
@@ -28,7 +28,7 @@ function CardTable() {
 							<button>Order Now</button>
 						</div>
 					</section>
-					<section className='table__card'>
+					<section className='table__card' data-aos='flip-down'>
 						<h2 className='name__cards'>Standard</h2>
 						<span className='name__title'>Brief price description</span>
 						<div className='table__card-body'>
@@ -47,7 +47,7 @@ function CardTable() {
 							<button>Order Now</button>
 						</div>
 					</section>
-					<section className='table__card'>
+					<section className='table__card' data-aos='flip-down'>
 						<h2 className='name__card'>Premium</h2>
 						<span className='name__title'>Brief price description</span>
 						<div className='table__card-body'>

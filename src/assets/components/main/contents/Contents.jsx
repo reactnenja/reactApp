@@ -5,12 +5,14 @@ function Contents() {
 	return (
 		<section className='contents'>
 			<div className='container'>
-				<h2 className='contents__heading'>Contents Strategies</h2>
-				<p className='contents__paragriph'>
+				<h2 className='contents__heading' data-aos='fade-down-left'>
+					Contents Strategies
+				</h2>
+				<p className='contents__paragriph' data-aos='fade-down-left'>
 					We focus on ergonomics and meeting you where you work. It's only a keystroke away.{" "}
 				</p>
 				<div className='contents__group'>
-					<div className='contents__card'>
+					<div className='contents__card' data-aos='flip-right'>
 						<div className='contents__head'>
 							<ContentCards />
 							<span>
@@ -23,7 +25,7 @@ function Contents() {
 							</a>
 						</div>
 					</div>
-					<div className='contents__card'>
+					<div className='contents__card' data-aos='flip-right'>
 						<div className='contents__head'>
 							<ContentCards2 />
 							<span>
@@ -36,7 +38,7 @@ function Contents() {
 							</a>
 						</div>
 					</div>
-					<div className='contents__card'>
+					<div className='contents__card' data-aos='flip-right'>
 						<div className='contents__head'>
 							<ContentCards3 />
 							<span>

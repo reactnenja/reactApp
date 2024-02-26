@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 AOS.init({
 	easing: "ease-out-quart",
 	delay: 0,
-	duration: 750,
+	duration: 150,
 });
 function App() {
 	return (
