@@ -1,4 +1,53 @@
 .contents {
 	padding: 140px 0px;
 	text-align: center;
+	&__heading {
+		font-weight: 700;
+		font-size: 34px;
+		line-height: 51px;
+		margin-bottom: 8px;
+	}
+	&__paragriph {
+		margin-bottom: 32px;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+	}
+	.contents__group {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 20px;
+		.contents__card {
+			width: 349.79px;
+			height: 359px;
+			border: 1px solid #dedede;
+			border-radius: 8px;
+			transition: all 0.5s;
+			&:hover {
+				transform: scale(1.1);
+			}
+			// background-color: aliceblue;
+			.contents__head {
+				margin-bottom: 24px;
+				span {
+					padding: 24px 0px 12px 0px;
+				}
+			}
+			.contents__body {
+				padding: 0px 30px 37px;
+				.contents__link {
+					font-weight: 700;
+					font-size: 24px;
+					line-height: 40px;
+					transition: all 0.7s;
+					color: #22343d;
+					text-decoration: none;
+					&:hover {
+						color: #02897a;
+					}
+				}
+			}
+		}
+	}
 }

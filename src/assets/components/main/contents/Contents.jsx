@@ -14,7 +14,7 @@ function Contents() {
 						<div className='contents__head'>
 							<ContentCards />
 							<span>
-								By<b>Wahid Ari</b>| 03 March 2019
+								By <b>Wahid Ari</b> | 03 March 2019
 							</span>
 						</div>
 						<div className='contents__body'>
@@ -27,7 +27,7 @@ function Contents() {
 						<div className='contents__head'>
 							<ContentCards2 />
 							<span>
-								By<b>Wahid Ari</b>| 03 March 2019
+								By <b>Wahid Ari</b> | 03 March 2019
 							</span>
 						</div>
 						<div className='contents__body'>
@@ -40,7 +40,7 @@ function Contents() {
 						<div className='contents__head'>
 							<ContentCards3 />
 							<span>
-								By<b>Wahid Ari</b>| 03 March 2019
+								By <b>Wahid Ari</b> | 03 March 2019
 							</span>
 						</div>
 						<div className='contents__body'>

@@ -1,0 +1,139 @@
+.card__pirace {
+	text-align: center;
+	padding: 120px 0px;
+	width: 100%;
+	.card__head-pr {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 50px;
+		h1 {
+			text-align: center;
+
+			font-weight: 700;
+			color: #22343d;
+			font-size: 34px;
+			line-height: 51px;
+			margin-bottom: 8px;
+		}
+		p {
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 24px;
+			color: #22343d;
+		}
+	}
+	.card__pirace-body {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		@media (max-width: 768px) {
+			justify-content: center;
+			gap: 50px;
+			padding-top: 50px;
+		}
+		.table__card {
+			width: 323.4px;
+			height: 476px;
+			border-radius: 8px;
+			box-shadow: 0px 2px 8px 0px #00000040;
+			padding: 24px 65px;
+			transition: all 0.7s;
+
+			.name__cards {
+				font-size: 24px;
+				font-weight: 700;
+				line-height: 40px;
+				color: #22343d;
+			}
+			.name__title {
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 40px;
+				width: 174px;
+				color: #22343d;
+				padding: 20px 0px;
+				margin-bottom: 24px;
+				display: inline-block;
+				text-align: center;
+			}
+			.table__card-body {
+				display: flex;
+				width: 200px;
+				height: 100px;
+				justify-content: center;
+				align-items: last baseline;
+				h1 {
+					font-size: 76px;
+					line-height: 100px;
+					letter-spacing: 0.4px;
+					padding: 10px 0px;
+					font-weight: 700;
+					color: #02897a;
+				}
+				.dollor {
+					display: block;
+					font-size: 44px;
+
+					color: #02897a;
+					font-weight: 700;
+				}
+				.head__pirace {
+					.text__tagtitle {
+						display: block;
+						width: 100%;
+					}
+				}
+			}
+			ol {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				flex-direction: column;
+				width: 100%;
+				gap: 16px;
+				li {
+					text-align: left;
+				}
+			}
+			.table__foot {
+				width: 100%;
+				text-align: center;
+				padding: 15px 0px;
+				button {
+					padding: 11px 19px;
+					background-color: #02897a;
+					color: #fff;
+					border: 2px solid #02897a;
+					border-radius: 8px;
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 21.8px;
+				}
+			}
+			&:hover {
+				background-color: #02897a !important;
+				color: #fff !important;
+				transform: scale(1.2);
+				.name__card {
+					color: #fff !important;
+				}
+				.name__title {
+					color: #fff !important;
+				}
+				h1,
+				b {
+					color: #fff !important;
+				}
+				.table__foot {
+					button {
+						background-color: #fff;
+						border-color: #fff;
+						color: #02897a;
+					}
+				}
+			}
+		}
+	}
+}
