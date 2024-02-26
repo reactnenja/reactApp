@@ -26,10 +26,18 @@
 			line-height: 30px;
 			border-radius: 8px;
 			border: 2px solid #02897a;
+			transition: all 0.6s;
+			cursor: pointer;
+			&:hover {
+				background-color: black;
+				color: #02897a;
+				transform: scale(1.2);
+			}
 		}
 	}
 	.footer__right {
 		transition: all 0.6s;
+		cursor: pointer;
 		&:hover {
 			transform: scale(1.3);
 		}
